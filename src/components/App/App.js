@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
-import Business from '../business/business.js';
+import BusinessList from '../business_list/business_list';
+import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
   return (
-    <div  id="App_id" className="App">
-      <Business />
+    <div className="App">
+      <h1>ravenous</h1>
+      <SearchBar/>;
+      <BusinessList/>;
     </div>
+   
   );
 }
 
